@@ -15,12 +15,12 @@
 package ar
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/registry"
 
-	"github.com/blevesearch/bleve/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/analysis/token/unicodenorm"
-	"github.com/blevesearch/bleve/analysis/tokenizer/unicode"
+	"github.com/tuomassalo/bleve/analysis/token/lowercase"
+	"github.com/tuomassalo/bleve/analysis/token/unicodenorm"
+	"github.com/tuomassalo/bleve/analysis/tokenizer/unicode"
 )
 
 const AnalyzerName = "ar"

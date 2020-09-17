@@ -19,8 +19,8 @@ import (
 	"sync/atomic"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/scorch/segment"
+	"github.com/tuomassalo/bleve/index"
+	"github.com/tuomassalo/bleve/index/scorch/segment"
 )
 
 type segmentIntroduction struct {

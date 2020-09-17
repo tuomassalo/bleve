@@ -19,7 +19,7 @@ package upsidedown
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/tuomassalo/bleve/index/store"
 	"github.com/blevesearch/blevex/cznicb"
 )
 

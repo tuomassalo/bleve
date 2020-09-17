@@ -16,10 +16,10 @@ package searcher
 
 import (
 	"fmt"
-	"github.com/blevesearch/bleve/geo"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/numeric"
-	"github.com/blevesearch/bleve/search"
+	"github.com/tuomassalo/bleve/geo"
+	"github.com/tuomassalo/bleve/index"
+	"github.com/tuomassalo/bleve/numeric"
+	"github.com/tuomassalo/bleve/search"
 	"math"
 )
 

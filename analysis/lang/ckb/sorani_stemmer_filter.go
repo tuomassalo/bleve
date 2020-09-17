@@ -18,8 +18,8 @@ import (
 	"bytes"
 	"unicode/utf8"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/registry"
 )
 
 const StemmerName = "stemmer_ckb"

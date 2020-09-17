@@ -17,7 +17,7 @@ package registry
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/search/highlight"
+	"github.com/tuomassalo/bleve/search/highlight"
 )
 
 func RegisterFragmentFormatter(name string, constructor FragmentFormatterConstructor) {

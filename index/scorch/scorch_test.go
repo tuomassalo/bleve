@@ -28,14 +28,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/analyzer/keyword"
-	"github.com/blevesearch/bleve/analysis/analyzer/standard"
-	regexpTokenizer "github.com/blevesearch/bleve/analysis/tokenizer/regexp"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/scorch/mergeplan"
-	"github.com/blevesearch/bleve/mapping"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/analysis/analyzer/keyword"
+	"github.com/tuomassalo/bleve/analysis/analyzer/standard"
+	regexpTokenizer "github.com/tuomassalo/bleve/analysis/tokenizer/regexp"
+	"github.com/tuomassalo/bleve/document"
+	"github.com/tuomassalo/bleve/index"
+	"github.com/tuomassalo/bleve/index/scorch/mergeplan"
+	"github.com/tuomassalo/bleve/mapping"
 )
 
 func init() {

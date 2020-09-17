@@ -15,8 +15,8 @@
 package fr
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/registry"
 
 	"github.com/blevesearch/snowballstem"
 	"github.com/blevesearch/snowballstem/french"

@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index"
+	"github.com/tuomassalo/bleve/index"
 	"github.com/couchbase/vellum"
 )
 

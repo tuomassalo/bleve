@@ -17,9 +17,9 @@ package searcher
 import (
 	"reflect"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/size"
+	"github.com/tuomassalo/bleve/index"
+	"github.com/tuomassalo/bleve/search"
+	"github.com/tuomassalo/bleve/size"
 )
 
 var reflectStaticSizeMatchNoneSearcher int

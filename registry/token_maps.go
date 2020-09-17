@@ -17,7 +17,7 @@ package registry
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/analysis"
+	"github.com/tuomassalo/bleve/analysis"
 )
 
 func RegisterTokenMap(name string, constructor TokenMapConstructor) {

@@ -17,7 +17,7 @@ package scorch
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/index/scorch/segment"
+	"github.com/tuomassalo/bleve/index/scorch/segment"
 
 	zapv11 "github.com/blevesearch/zap/v11"
 	zapv12 "github.com/blevesearch/zap/v12"

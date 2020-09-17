@@ -18,10 +18,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/highlight/format/ansi"
-	sfrag "github.com/blevesearch/bleve/search/highlight/fragmenter/simple"
+	"github.com/tuomassalo/bleve/document"
+	"github.com/tuomassalo/bleve/search"
+	"github.com/tuomassalo/bleve/search/highlight/format/ansi"
+	sfrag "github.com/tuomassalo/bleve/search/highlight/fragmenter/simple"
 )
 
 const (

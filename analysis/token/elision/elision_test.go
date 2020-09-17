@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/tokenmap"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/analysis/tokenmap"
+	"github.com/tuomassalo/bleve/registry"
 )
 
 func TestElisionFilter(t *testing.T) {

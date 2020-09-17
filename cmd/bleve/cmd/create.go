@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 
 	"github.com/blevesearch/bleve"
-	"github.com/blevesearch/bleve/mapping"
+	"github.com/tuomassalo/bleve/mapping"
 	"github.com/spf13/cobra"
 )
 

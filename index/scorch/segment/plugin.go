@@ -16,7 +16,7 @@ package segment
 
 import (
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index"
+	"github.com/tuomassalo/bleve/index"
 )
 
 // Plugin represents the essential functions required by a package to plug in

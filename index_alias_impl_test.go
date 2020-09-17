@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/numeric"
-	"github.com/blevesearch/bleve/search"
+	"github.com/tuomassalo/bleve/document"
+	"github.com/tuomassalo/bleve/index"
+	"github.com/tuomassalo/bleve/index/store"
+	"github.com/tuomassalo/bleve/mapping"
+	"github.com/tuomassalo/bleve/numeric"
+	"github.com/tuomassalo/bleve/search"
 )
 
 func TestIndexAliasSingle(t *testing.T) {

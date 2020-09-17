@@ -17,8 +17,8 @@ package scorch
 import (
 	"fmt"
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/scorch/segment"
+	"github.com/tuomassalo/bleve/index"
+	"github.com/tuomassalo/bleve/index/scorch/segment"
 	"sync/atomic"
 )
 

@@ -17,9 +17,9 @@ package zerowidthnonjoiner
 import (
 	"regexp"
 
-	"github.com/blevesearch/bleve/analysis"
-	regexpCharFilter "github.com/blevesearch/bleve/analysis/char/regexp"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/tuomassalo/bleve/analysis"
+	regexpCharFilter "github.com/tuomassalo/bleve/analysis/char/regexp"
+	"github.com/tuomassalo/bleve/registry"
 )
 
 const Name = "zero_width_spaces"

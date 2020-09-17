@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/blevesearch/bleve/geo"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/searcher"
+	"github.com/tuomassalo/bleve/geo"
+	"github.com/tuomassalo/bleve/index"
+	"github.com/tuomassalo/bleve/mapping"
+	"github.com/tuomassalo/bleve/search"
+	"github.com/tuomassalo/bleve/search/searcher"
 )
 
 type GeoBoundingPolygonQuery struct {

@@ -17,8 +17,8 @@ package simple
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/highlight"
+	"github.com/tuomassalo/bleve/search"
+	"github.com/tuomassalo/bleve/search/highlight"
 )
 
 func TestSimpleFragmentScorer(t *testing.T) {

@@ -15,7 +15,7 @@
 package document
 
 import (
-	"github.com/blevesearch/bleve/analysis"
+	"github.com/tuomassalo/bleve/analysis"
 )
 
 type Field interface {

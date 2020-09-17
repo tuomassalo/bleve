@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/geo"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/document"
+	"github.com/tuomassalo/bleve/geo"
 )
 
 // control the default behavior for dynamic fields (those not explicitly mapped)

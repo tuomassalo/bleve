@@ -17,8 +17,8 @@ package in
 import (
 	"bytes"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/registry"
 )
 
 const NormalizeName = "normalize_in"

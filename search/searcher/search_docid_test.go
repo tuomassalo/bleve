@@ -17,11 +17,11 @@ package searcher
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/gtreap"
-	"github.com/blevesearch/bleve/index/upsidedown"
-	"github.com/blevesearch/bleve/search"
+	"github.com/tuomassalo/bleve/document"
+	"github.com/tuomassalo/bleve/index"
+	"github.com/tuomassalo/bleve/index/store/gtreap"
+	"github.com/tuomassalo/bleve/index/upsidedown"
+	"github.com/tuomassalo/bleve/search"
 )
 
 func testDocIDSearcher(t *testing.T, indexed, searched, wanted []string) {

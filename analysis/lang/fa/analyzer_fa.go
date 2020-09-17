@@ -15,13 +15,13 @@
 package fa
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/registry"
 
-	"github.com/blevesearch/bleve/analysis/char/zerowidthnonjoiner"
-	"github.com/blevesearch/bleve/analysis/lang/ar"
-	"github.com/blevesearch/bleve/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/analysis/tokenizer/unicode"
+	"github.com/tuomassalo/bleve/analysis/char/zerowidthnonjoiner"
+	"github.com/tuomassalo/bleve/analysis/lang/ar"
+	"github.com/tuomassalo/bleve/analysis/token/lowercase"
+	"github.com/tuomassalo/bleve/analysis/tokenizer/unicode"
 )
 
 const AnalyzerName = "fa"

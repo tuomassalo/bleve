@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	"github.com/blevesearch/bleve"
-	"github.com/blevesearch/bleve/search/query"
+	"github.com/tuomassalo/bleve/search/query"
 	"github.com/spf13/cobra"
 )
 

@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
-	_ "github.com/blevesearch/bleve/analysis/tokenizer/unicode"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/tuomassalo/bleve/analysis"
+	_ "github.com/tuomassalo/bleve/analysis/tokenizer/unicode"
+	"github.com/tuomassalo/bleve/registry"
 )
 
 func TestExceptionsTokenizer(t *testing.T) {

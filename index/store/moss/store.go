@@ -24,8 +24,8 @@ import (
 
 	"github.com/couchbase/moss"
 
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/tuomassalo/bleve/index/store"
+	"github.com/tuomassalo/bleve/registry"
 )
 
 // RegistryCollectionOptions should be treated as read-only after

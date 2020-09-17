@@ -21,14 +21,14 @@ import (
 	"sort"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/datetime/optional"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/registry"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/collector"
-	"github.com/blevesearch/bleve/search/query"
-	"github.com/blevesearch/bleve/size"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/analysis/datetime/optional"
+	"github.com/tuomassalo/bleve/document"
+	"github.com/tuomassalo/bleve/registry"
+	"github.com/tuomassalo/bleve/search"
+	"github.com/tuomassalo/bleve/search/collector"
+	"github.com/tuomassalo/bleve/search/query"
+	"github.com/tuomassalo/bleve/size"
 )
 
 var reflectStaticSizeSearchResult int

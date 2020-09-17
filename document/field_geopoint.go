@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/geo"
-	"github.com/blevesearch/bleve/numeric"
-	"github.com/blevesearch/bleve/size"
+	"github.com/tuomassalo/bleve/analysis"
+	"github.com/tuomassalo/bleve/geo"
+	"github.com/tuomassalo/bleve/numeric"
+	"github.com/tuomassalo/bleve/size"
 )
 
 var reflectStaticSizeGeoPointField int

@@ -20,8 +20,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
+	"github.com/tuomassalo/bleve/document"
+	"github.com/tuomassalo/bleve/index"
 )
 
 func TestBuilder(t *testing.T) {

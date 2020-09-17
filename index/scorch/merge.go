@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index/scorch/mergeplan"
-	"github.com/blevesearch/bleve/index/scorch/segment"
+	"github.com/tuomassalo/bleve/index/scorch/mergeplan"
+	"github.com/tuomassalo/bleve/index/scorch/segment"
 )
 
 func (s *Scorch) mergerLoop() {

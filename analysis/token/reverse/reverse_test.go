@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
+	"github.com/tuomassalo/bleve/analysis"
 )
 
 func TestReverseFilter(t *testing.T) {
